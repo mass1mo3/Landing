@@ -1,0 +1,178 @@
+@import url('nullystyle.css');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;700&display=swap');
+
+
+* {
+    font-family: 'League Spartan', sans-serif;
+    transition: all 1s ease;
+    
+}
+
+header {
+    background-color: #F8F8F8;
+    
+}
+
+.container {
+    margin-left: 5px;
+    margin-right: 7px;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-description h1 {
+font-size: 24px;
+font-weight: 300;
+margin-bottom: 43px;
+margin-top: 20px;
+}
+
+.mor-title {
+font-size: 70px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 3px;
+}
+
+.mor-description {
+font-size: 18px;
+font-weight: 300;
+text-align: left;
+margin-bottom: 41px;
+width: 325px;
+}
+
+.buy-menu {
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+.buy-menu a {
+    display: inline-block;
+    background-color: #161515;
+    text-decoration: none;
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 24px 5px 23px;
+    color: #FFFF;
+    
+}
+.buy-menu a:active {
+    transform: scale(1.1, 1.1);
+    background-color: #707070;
+}
+
+.buy-menu div {
+    background-color: #FFFF;
+    padding: 10px 24px 5px 23px;
+    font-size: 32px;
+    font-weight: 300;
+   text-align: center;
+   width: 203px;
+}
+
+.header-image img {
+    max-width: 70%;
+        }
+       
+.header-image img:active {
+    transform: scale(1.1, 1.1);
+}
+    .main-top {
+        text-align: center;
+    }
+    .main-top h2 {
+        font-size: 25px;
+        line-height: 44.64px;
+    }
+
+    .main-top div{
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 31px;
+        
+    }
+
+    .item-image-wrapper {
+        background-color: #F8F8F8;
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    
+    .item-image-wrapper img{
+        display: block;
+        margin: 0 auto;
+        padding: 10px 0;
+        max-width: 	100%;
+    }
+
+    .item-image-wrapper img:active {
+        transform: scale(1.1, 1.1);
+    }
+
+    .sw12:active {
+        transform: scale(1.5, 1.5);
+    }
+
+    .main-title {
+margin-top: 25px;
+padding-bottom: 12px;
+font-size: 32px;
+font-weight: 400;
+line-height: 19px;
+text-align: center;
+}
+
+.main-description {
+margin: 0 auto;
+font-size: 16px;
+font-weight: 300;
+line-height: 14px;
+text-align: center;
+max-width: 70%;
+}
+
+.main-item {
+    margin-top: 82px;
+}
+.sw12 img{
+    margin-left: 0px;
+    margin-top: -55px;
+    max-width: 100%;
+}
+.footer    {
+    text-align: center;
+    padding-bottom: 142px;
+    
+}
+.footer-title {
+font-size: 32px;
+font-weight: 400;
+line-height: 60px;
+margin-top: 59px;
+
+
+}
+.title-border {
+    border-bottom: 1px solid #707070;
+    width: 173px;
+    margin: 0 auto;
+    margin-bottom: 59px;
+}
+.about {
+width: 70%;
+font-size: 12px;
+font-weight: 400;
+line-height: 10px;
+margin: 0 auto;
+
+}
+
+.about a {
+    color: #BB8B5D;
+}
